@@ -66,7 +66,7 @@ holiday_hash.each {
         |word| capitalized_w = word.capitalize
         nam_new << capitalized_w
       final = []
-      final = " "
+      final << " "
       final << nam_new
       final << ":"
       final << supp.to_s}
