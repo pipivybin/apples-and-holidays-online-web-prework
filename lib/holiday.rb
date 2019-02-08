@@ -64,11 +64,11 @@ holiday_hash.each {
       |nam, supp| nam_new = []
       nam.to_s.split(" ").each {
         |word| capitalized_w = word.capitalize
-        nam_new << capitalized_w}
+        nam_new << capitalized_w
       final = [" "]
       final << nam_new
       final << ":"
-      final << supp.to_s.capitalize
+      final << supp.to_s}
       final = final.flatten.join(" ")
       puts "#{final}"
     }
