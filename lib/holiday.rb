@@ -17,6 +17,13 @@ def second_supply_for_fourth_of_july(holiday_hash)
      }
    }
   holiday_hash[:summer][:fourth_of_july][1]
+  Winter:
+  #   Christmas: Lights, Wreath
+  #   New Years: Party Hats
+  # Summer:
+  #   Fourth Of July: Fireworks, BBQ
+  # etc.
+  
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
@@ -57,23 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-holiday_hash.each {
-  |seas, holi|
-    puts "#{seas.to_s.capitalize!}:"
-    holi.each {
-      |nam, supp| nam_new = []
-      nam.to_s.split(" ").each {
-        |word| capitalized_w = word.capitalize
-        nam_new << capitalized_w
-      final = []
-      final << " "
-      final << nam_new
-      final << ":"
-      final << supp.to_s}
-      final = final.join(" ")
-      puts "#{final}"
-    }
-  }
+
 
 end
 
