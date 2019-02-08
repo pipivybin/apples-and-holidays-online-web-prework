@@ -62,6 +62,7 @@ holiday_hash.each {
   |season, hash| result = [] hash.each {
     |holiday, supplies| if supplies.any?("BBQ")
       result << holiday
+    end
   }
 }
 end
