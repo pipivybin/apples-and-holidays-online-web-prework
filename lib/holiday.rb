@@ -30,8 +30,9 @@ holiday_hash.each {
   hash.each {
     |holiday, supply| holiday.to_s.split(" ").each {
       new_holiday = []
-      |word| word.capitalize
-
+      |word|
+      new_holiday << word.capitalize
+      new_holiday = new_holiday.join(" ")
     }
   }
 }
