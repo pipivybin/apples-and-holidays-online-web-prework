@@ -28,7 +28,11 @@ holiday_hash.each {
   |season, hash|
   puts "#{season.to_s.capitalize}:"
   hash.each {
+    |holiday, supply| holiday.to_s.split(" ").each {
+      new_holiday = []
+      |word| word.capitalize
 
+    }
   }
 }
 
