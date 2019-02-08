@@ -69,7 +69,7 @@ holiday_hash.each {
       final << ": "
       final << supp.to_s.capitalize
 
-      puts "#{final.flatten}""
+      puts "#{final.flatten}"
     }
   }
 
