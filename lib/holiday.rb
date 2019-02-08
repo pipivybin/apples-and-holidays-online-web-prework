@@ -63,7 +63,7 @@ holiday_hash.each {
     nam.split(" ").each {
         |word| puts "#{word}.capitalize" && ":"
     } && " " && supp.to_s
-  
+
       #{nam}: #{supp}.to_s"
   }
 }
