@@ -60,6 +60,7 @@ def all_supplies_in_holidays(holiday_hash)
 holiday_hash.each {
   |seas, holi| holi.each { |nam, supp|
     puts "#{seas}:
+    
       #{nam}: #{supp}.to_s"
   }
 }
