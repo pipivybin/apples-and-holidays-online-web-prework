@@ -17,12 +17,22 @@ def second_supply_for_fourth_of_july(holiday_hash)
      }
    }
   holiday_hash[:summer][:fourth_of_july][1]
-  Winter:
+  # Winter:
   #   Christmas: Lights, Wreath
   #   New Years: Party Hats
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
+
+holiday_hash.each {
+  |season, hash|
+  puts "#{season.to_s.capitalize}:"
+  hash.each {
+    
+  }
+}
+
+
   
 end
 
