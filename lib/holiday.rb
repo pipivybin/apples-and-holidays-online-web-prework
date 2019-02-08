@@ -59,8 +59,11 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 holiday_hash.each {
   |seas, holi| holi.each { |nam, supp|
-    puts "#{seas}:
-    
+    puts "#{seas}.capitalize" && ":"
+    nam.split(" ").each {
+        |word| puts "#{word}.capitalize" && ":"
+    } && " " && supp.to_s
+  
       #{nam}: #{supp}.to_s"
   }
 }
