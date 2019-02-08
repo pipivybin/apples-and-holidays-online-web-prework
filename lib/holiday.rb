@@ -65,7 +65,7 @@ holiday_hash.each {
       nam.to_s.split(" ").each {
         |word| capitalized_w = word.capitalize
         nam_new << capitalized_w}
-      final = nam_new + [": "] + supp.to_s.capitalize
+      final = nam_new + [: ] + supp.to_s.capitalize
 
       puts "final.flatten"
     }
