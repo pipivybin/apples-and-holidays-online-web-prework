@@ -67,7 +67,7 @@ holiday_hash.each {
         nam_new << capitalized_w}
       final = [" "]
       final << nam_new
-      final << ": "
+      final << ":"
       final << supp.to_s.capitalize
       final = final.flatten.join(" ")
       puts "#{final}"
