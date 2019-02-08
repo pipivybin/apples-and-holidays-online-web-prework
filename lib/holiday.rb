@@ -62,7 +62,7 @@ holiday_hash.each {
     puts "#{seas.to_s.capitalize!}:"
     holi.each {
       |nam, supp| nam_new = []
-      nam.split(" ").each {
+      nam.to_s.split(" ").each {
         |word| capitalized_w = word.capitalize
         nam_new << capitalized_w}
       puts "#{nam_new.to_s}: " && "#{supp}.capitalize"
