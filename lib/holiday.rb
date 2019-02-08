@@ -70,7 +70,7 @@ holiday_hash.each {
       final << nam_new
       final << ":"
       final << supp.to_s}
-      final = final.flatten.join(" ")
+      final = final.join(" ")
       puts "#{final}"
     }
   }
