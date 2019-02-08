@@ -28,12 +28,12 @@ holiday_hash.each {
   |season, hash|
   puts "#{season.to_s.capitalize}:"
   hash.each {
-    
+
   }
 }
 
 
-  
+
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
