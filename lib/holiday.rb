@@ -65,4 +65,5 @@ holiday_hash.each {
     end
   }
 }
+result
 end
