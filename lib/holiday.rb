@@ -75,7 +75,7 @@ def all_supplies_in_holidays(holiday_hash)
           new_holiday << word.capitalize }
         new_holiday = new_holiday.join(" ")
         supply = supply.join(", ")
-        puts "#{new_holiday}: #{supply}"
+        puts " #{new_holiday}: #{supply}"
       }
     }
 
